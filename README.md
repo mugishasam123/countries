@@ -5,7 +5,7 @@
 
 > Countries is an app that manages clients informations with providers associated
  
-![image](https://user-images.githubusercontent.com/90524466/199809449-44f547a7-1b4c-4109-a6be-271aa444e0f1.png)
+![image](https://user-images.githubusercontent.com/90524466/200921360-65855b4f-c756-46d0-89c3-fc6b706a0c89.png)
 
 
 Additional description about the project and its features.
