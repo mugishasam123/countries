@@ -47,7 +47,7 @@ $ Run npm install to install backend dependencies
 ```
 ### Database setup
 
-> - The database (`countries`) of this application will be created
+> - The database (`countries-app`) of this application will be created
 > - automatically locally when you run the app, so there is no configurations needed.
 > - The local database URI (which was used in the project) is `mongodb://localhost:27017/countries-app`.
 #### Run project
