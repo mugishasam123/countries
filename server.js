@@ -19,6 +19,7 @@ const app = express();
 const dev = process.env.NODE_ENV !== "production"; //true false
 const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler(); //part of next config
+//await nextApp.prepare();
 
 const db_uri = process.env.DB_URI;
 const port = process.env.PORT;
