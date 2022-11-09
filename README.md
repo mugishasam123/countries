@@ -3,7 +3,7 @@
 
 # Countries
 
-> Countries is an app that manages clients informations with providers associated
+> Countries-app is an app that performs CRUD operations on a list of countries. It  is a fullstack application with both frontend and backend. Backend is created with apolllo server and express , data from mongodb. The frontend is created with Next js and tailwindcss for styling.
  
 ![image](https://user-images.githubusercontent.com/90524466/200921360-65855b4f-c756-46d0-89c3-fc6b706a0c89.png)
 
@@ -54,8 +54,8 @@ $ Run npm install to install backend dependencies
 
 > - Run `npm run build` to build the application
 > - Run `npm run dev` to start the server
-> - Go to [http://localhost:5000](http://localhost:5000) to interact with
->   the build version of the app which is statically being served by the backend.
+> - Go to [http://localhost:5000/api/countries](http://localhost:5000/api/countries) to interact with
+>   the graphql server api created by apollo and express.
 > - If you want to play with code and see the live updates
 >   go to [http://localhost:3000](http://localhost:3000)
 > - Everytime you make updates to the code and want to see the updates live
