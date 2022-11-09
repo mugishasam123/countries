@@ -19,7 +19,7 @@ const app = express();
 const dev = process.env.NODE_ENV !== "production"; //true false
 const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler(); //part of next config
-//await nextApp.prepare();
+
 
 const db_uri = process.env.DB_URI;
 const port = process.env.PORT;
@@ -122,7 +122,7 @@ async function startApolloServer({ typeDefs, resolvers }) {
   console.log(
     `🚀 Server is running at http://localhost:${port}${server.graphqlPath}`
   );
-  console.log(`🚀 App is running at http://localhost:${port}`);
+  console.log(`🚀 App is running at http://localhost:3000`);
 }
 
 startApolloServer({ typeDefs, resolvers });

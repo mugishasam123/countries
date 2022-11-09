@@ -7,7 +7,7 @@ const CountryCard = ({ country, show }) => {
   const { deleteCountry } = useDeleteCountry();
   const handleDelete = () => {
     deleteCountry(country.id).then(() => {
-      router.reload();
+      router.push('/');
     });
   };
 
@@ -22,7 +22,7 @@ const CountryCard = ({ country, show }) => {
       {show ? (
         <>
           <span className="text-lg text-gray-800 font-semibold">
-            Area (square kilometres): {country.area}
+            Area (square kilometres): {country.area} km<sup>2</sup>
           </span>
           <span className="text-lg text-gray-800 font-semibold">
             {" "}
@@ -34,7 +34,7 @@ const CountryCard = ({ country, show }) => {
       )}
       <div className="flex space-x-3">
         {!show && <Button label="Details" url={`details/${country.id}`} />}
-        <Button label="Edit" url={`edit/${country.id}`} />
+        {!show&&<Button label="Edit" url={`edit/${country.id}`} />}
         <Button label="Delete" handleClick={handleDelete} />
       </div>
     </div>
