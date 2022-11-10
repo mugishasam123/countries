@@ -26,6 +26,7 @@ Additional description about the project and its features.
 ## Demo
 
 - [Backend demo](https://drive.google.com/file/d/1pSA7_Hcb7q50EBRGcrPQqfYwvinzZ_67/view?usp=sharing)
+- [Frontend demop](https://www.loom.com/share/e5a2cc520a6c4b6485794bff6a625b46)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
